@@ -1,7 +1,7 @@
 [
     {
     "id": 1,
-    "icon":"/images/chromium.png",
+    "icone":"/images/chromium.png",
     "cor": "#B6D5FF",
     "titulo": "Chromium",
     "descricao": "Projeto de navegador de código aberto que serve de base para o Google Chrome e outros navegadores modernos.",
@@ -11,7 +11,7 @@
     
     {
     "id": 2,
-    "icon":"/images/react.png",
+    "icone":"/images/react.png",
     "cor": "#C5F3FF",
     "titulo": "React",
     "descricao": "Biblioteca JavaScript para construir interfaces de usuário reativas, criada pelo Facebook e usada em milhares de aplicações web. ",
@@ -21,7 +21,7 @@
 
     {
     "id": 3,
-    "icon":"/images/ubuntu.png",
+    "icone":"/images/ubuntu.png",
     "cor": "#F6C29D",
     "titulo": "Ubuntu ",
     "descricao": "Distribuição Linux baseada em Debian, voltada para usabilidade, segurança e atualização frequente.",
@@ -31,7 +31,7 @@
 
     {
     "id": 4,
-    "icon":"/images/git.png",
+    "icone":"/images/git.png",
     "cor": "#F7B7AD",
     "titulo": "Git",
     "descricao": "Sistema de controle de versões distribuído, eficiente para rastrear mudanças em projetos de software. ",
@@ -41,7 +41,7 @@
 
     {
     "id": 5 ,
-    "icon":"/images/android.png",
+    "icone":"/images/android.png",
     "cor": "#B6F5D5",
     "titulo": "Android",
     "descricao": "Sistema operacional móvel desenvolvido pelo Google, usado em bilhões de dispositivos ao redor do mundo.",
@@ -51,7 +51,7 @@
 
     {
     "id": 6,
-    "icon":"/images/Typescript.png",
+    "icone":"/images/typescript.png",
     "cor": "#B9DBFD",
     "titulo": "Typescript",
     "descricao": "Superset do JavaScript que adiciona tipagem estática e recursos modernos para desenvolvimento robusto.",
@@ -61,7 +61,7 @@
 
     {
     "id": 7 ,
-    "icon":"/images/tensorflow.png",
+    "icone":"/images/tensorflow.png",
     "cor": "#FAE5B1",
     "titulo": "Tensorflow",
     "descricao": "Biblioteca de código aberto do Google para computação numérica e aprendizado de máquina com redes neurais.",
@@ -71,7 +71,7 @@
 
     {
     "id": 8,
-    "icon":"/images/docusaurus.png",
+    "icone":"/images/docusaurus.png",
     "cor": "#ADF5BF",
     "titulo": "Docusaurus",
     "descricao": "Gerador de sites estáticos focado em documentação técnica, criado pelo Facebook.",
