@@ -1,0 +1,13 @@
+header{
+    background: linear-gradient(rgba(182, 213, 255, 0.4), rgba(182, 213, 255, 0.4)), url(../images/pexels-markus-winkler-1430818-4584830\ 1.png);
+    height: 320px;
+    background-size: cover;
+}
+
+header h1{
+    color: #202124;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 100px;
+}
