@@ -1,20 +1,11 @@
 import type { Card } from './models/Card';
 import './style/index.css'
 
-
-
 async function carregarCard() {
-  const app = document.querySelector<HTMLDivElement>("#app")!;
+  const main = document.querySelector<HTMLElement>("main")!;
 
-  const response = await fetch("http://localhost:5173/cards.json");
+  const response = await fetch("/cards.json");
   const cards: Card[] = await response.json();
-
-  app.innerHTML = `
-    <h1>Projetos Open Source</h1>
-    <div id="cards"></div>
-  `;
-
-  const cardsContainer = document.querySelector<HTMLDivElement>("#cards")!;
 
   let cardsHtml = '';
   cards.forEach((card) => {
@@ -34,7 +25,7 @@ async function carregarCard() {
       </div>
     `;
   });
-  cardsContainer.innerHTML = cardsHtml;
+  main.innerHTML = cardsHtml;
 
   console.log(cards);
 }
