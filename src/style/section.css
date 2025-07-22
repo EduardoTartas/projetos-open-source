@@ -1,0 +1,26 @@
+section{
+    margin-top: 20px;
+    background-color: #202124f1;
+    height: 230px;
+}
+
+section a{
+    transition: 0.8s;
+    color: #F1F1F1;
+}
+
+section div{
+    font-family: 'Roboto', sans-serif;
+    color: #F1F1F1;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 20px 20px 0 20px;
+}
+
+section a:hover{
+    transition: 0.6s;
+    padding: 3px;
+    background-color: #EADD67CC;
+    color: #38393F;
+    border-radius: 4px;
+}
